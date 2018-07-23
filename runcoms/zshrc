@@ -10,4 +10,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+alias gst='git status'
+alias gsta='git stash'
+alias gcmsg='git commit -m'
+alias gl='git pull'
+alias gd='git diff'
+alias ga='git add'
+alias gb='git branch'
+
+alias nt='npm test'
+alias l='ls -la'
+
+
 # Customize to your needs...
